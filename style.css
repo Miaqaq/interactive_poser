@@ -1,0 +1,739 @@
+
+
+#border{
+
+	width: 5vw;
+	height: 25vh;
+	border: white solid 2px;
+	margin-top: 65vh;
+	margin-left: 7vw;
+	position: fixed;
+
+
+}
+
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 30px solid white;
+	margin-top:65vh;
+	margin-left: 8.4vw;
+	position: fixed;
+}
+
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 30px solid white;
+	margin-top:80vh;
+	position: fixed;
+	margin-left: 8.4vw;
+}
+
+
+
+
+#border1{
+
+	width: 5vw;
+	height: 25vh;
+	border: black solid 2px;
+	margin-top: 65vh;
+	margin-left: 7vw;
+	position: fixed;
+
+
+}
+
+#triangle-up1 {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 30px solid black;
+	margin-top:65vh;
+	margin-left: 8.4vw;
+	position: fixed;
+}
+
+#triangle-down1 {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 30px solid black;
+	margin-top:80vh;
+	position: fixed;
+	margin-left: 8.4vw;
+}
+
+#gluttony{
+
+
+	font-size:100px;
+	color: black; 
+	z-index: 2;
+	margin-top: 35vh;
+	margin-left: 33vw;
+	/*transform: rotate(180deg);*/
+	position: fixed;
+	display: none;
+/*	color:red;*/
+	
+	border: white 2px solid;
+
+
+
+}
+
+#lust{
+
+
+	font-size:100px;
+	color: black; 
+	z-index: 2;
+	margin-top: 37vh;
+	margin-left: 40vw;
+	transform: rotate(180deg);
+	position: fixed;
+	color:red;
+	
+
+
+
+}
+
+#pride{
+
+
+	font-size:100px;
+	color: black; 
+	z-index: 2;
+	margin-top: 37vh;
+	margin-left: 40vw;
+
+	position: absolute;
+	color:red;
+	
+
+
+
+}
+
+#greed{
+
+    font-size: 100px;
+    color: black;
+    width: auto;
+    z-index: 2;
+    margin-top: 37vh;
+    margin-left: 37vw;
+    position: fixed;
+    color: red;
+}
+/*	color:red;
+	*/
+
+
+
+}
+/*
+#line{
+	border-bottom: black solid 2px;
+	width: 203px;
+	margin-top:-150px;
+	margin-left:7vw;
+	display: inline-block;
+	position: absolute;
+
+
+
+}*/
+
+#limbo{
+
+	font-size:100px;
+	color: black; 
+	z-index: 2;
+	margin-top: 37vh;
+	margin-left: 37vw;
+	position: fixed;
+
+
+
+}
+
+#limbo2{
+
+
+font-size:100px;
+	color: black; 
+	z-index: 2;
+	margin-top: 37vh;
+	margin-left: 37vw;
+	position: fixed;
+
+
+
+}
+
+.e3{
+	/*margin-top: 1100vh;*/
+	position: absolute;
+/*	margin-left: 20vw;*/
+	color:white;
+	border: white 2px;
+
+}
+
+.elevator2{
+
+	display: none;
+	position: fixed;
+}
+.elevator1{
+
+	display: none;
+	position: fixed;
+}
+#level0{
+
+	font:helvativa;
+	font-size:30px;
+	color: black; 
+	z-index: 2;
+	margin-top: 43vh;
+	margin-left: 90vw;
+	transform: rotate(90deg);
+	position: absolute;
+
+}
+
+#level1{
+
+
+	font:helvativa;
+	font-size:30px;
+	color: black; 
+	z-index: 2;
+	margin-top: 43vh;
+	margin-left: 90vw;
+	transform: rotate(90deg);
+	position: absolute;
+	color:red;
+
+
+
+}
+
+#level2{
+
+
+	font:helvativa;
+	font-size:30px;
+	color: white; 
+	z-index: 2;
+	margin-top: 43vh;
+	margin-left: 90vw;
+	transform: rotate(90deg);
+	position: absolute;
+	
+
+
+
+}
+
+#level4{
+
+
+	font:helvativa;
+	font-size:30px;
+	color:red; 
+	z-index: 2;
+	margin-top: 43vh;
+	margin-left: 90vw;
+	transform: rotate(90deg);
+	position: fixed;
+	
+
+}
+.validatedForm{
+	background-color: black;
+	border: none;
+	z-index: 2;
+	width: 0;
+	margin-top: -20vh;
+	margin-left: 38vw;
+/*	display: none;*/
+}
+
+#password{
+/*
+	background-color: black;
+	border: none;
+	z-index: 2;
+	width: 0;
+	margin-top: -50px;
+	margin-left: 38vw;*/
+
+	
+
+
+
+
+}
+
+
+
+#hint{
+
+
+
+	font-size:20px;
+	color:red; 
+	z-index: 2;
+	margin-top: 83vh;
+	margin-left: 45.5vw;
+	/*transform: rotate(90deg);*/
+	position: fixed;
+	display: none;
+	
+
+}
+#level5{
+
+
+	font:helvativa;
+	font-size:30px;
+	color: red; 
+	z-index: 2;
+	margin-top: 43vh;
+	margin-left: 90vw;
+	transform: rotate(90deg);
+	position: fixed;
+	
+
+}
+
+
+#fp1{
+	width: 3em;
+	height: 6em;
+	transform:rotate(20deg);
+	margin-top: 70vh;
+	margin-left: 50vw;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: 5s;
+	animation-delay:1s;
+	animation-iteration-count: infinite;
+	
+}
+
+
+#fp2{
+	width: 3em;
+	height: 6em;
+	transform:rotate(-20deg);
+	margin-top: 50vh;
+	margin-left: 40vw;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: 5s;
+	animation-delay:2s;
+	animation-iteration-count: infinite;
+	
+}
+
+#fp3{
+	width: 3em;
+	height: 6em;
+	transform:rotate(20deg);
+	margin-top: 30vh;
+	margin-left: 50vw;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: 5s;
+	animation-delay:3s;
+	animation-iteration-count: infinite;
+	
+}
+
+#fp4{
+	width: 3em;
+	height: 6em;
+	transform:rotate(-20deg);
+	margin-top: 10vh;
+	margin-left: 40vw;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: 5s;
+	animation-delay:4s;
+	
+}
+
+@keyframes appear{
+
+	from {opacity: 100;
+		display: hide;
+	}
+
+	to {opacity:0;
+	}
+
+}
+
+
+.clicked{
+	background:black;
+}
+
+
+
+#fire{
+
+	width: 40%;
+	height: 40%;
+	margin-top: 55vh;
+	margin-left:28vw;
+
+}
+
+#mouth{
+
+	width:30%;
+	height: 30%;
+	margin-top: 34vh;
+	margin-left: 30vw;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+
+
+}
+
+#mouth2{
+
+	width:20%;
+	height: 20%;
+	margin-top: 28vh;
+	margin-left: 34vw;
+	display: inline;
+
+
+}
+
+#mouth3{
+
+	width:25%;
+	height: 25%;
+	margin-top: 38vh;
+	margin-left: 33vw;
+	display: none;
+
+
+
+}
+#rat{
+
+	width: 130px;
+	height: 100px;
+	
+	
+
+	margin-top: 459px;
+    margin-left: 168px;	
+	position:absolute;
+	display: inline;
+
+
+}
+
+#frog{
+
+	width: 150px;
+	height: 110px;
+	margin-top: 450px;
+	margin-left: -520px;
+	position:absolute;
+	display: inline;
+
+
+}
+
+#falling{
+	/*margin-left: 200px;
+	margin-top: 90px;*/
+	position: absolute;
+	width: 10%;
+	z-index: 2;
+
+    transform: translate(-50%, -50%);
+}
+
+
+#fall{
+	cursor: none;
+	background-color: black;
+
+}
+#f2{
+	width: 70%;
+	height: 70%;
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 200vh;
+
+}
+#f3{
+	width: 70%;
+	height: 70%;
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 400vh;
+
+}
+
+#f4{
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 600vh;
+
+}
+#f5{
+
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	margin-left: 10vw;
+	margin-top: 800vh;
+
+}
+
+#rectangle{
+	width: 100%;
+	height: 100%;
+	background-color:black;
+	z-index: 2;
+	margin-top:45px;
+	display: inline-block;
+
+}
+
+
+
+
+
+/*#mouth:hover{
+	background: url('pictures/mouth3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+
+	;*/
+
+
+#snake{
+	width: 9%;
+    height: 21%;
+    margin-top: 13px;
+    margin-left: -171px;
+    position: absolute;
+    transform: rotate(20deg);
+}
+
+
+#pot: hover{
+	cursor: url(pictures/stick.png);
+}
+
+.e2{
+
+	display: absolute;
+	margin-left: 2000px;
+
+
+}
+
+#money{
+	display: inline;
+	transform:;
+	z-index: 1;
+	width: 10%;
+	transform: rotate(20deg);
+	margin-top: 10vh;
+	margin-left: 10vw;
+	position: absolute;
+}
+
+#money2{
+
+	display: inline;
+	transform:;
+	z-index: 2;
+	width: 5%;
+	transform: rotate(20deg);
+	margin-top: 10vh;
+	margin-left: -10vw;
+	position: absolute;
+
+}
+
+#pot{
+	width: 20%;
+    margin-left: 39vw;
+    z-index: 1;
+    margin-top: 1100vh;
+
+
+}
+#pot2{
+	width: 20%;
+    margin-left: 39vw;
+    z-index: 2;
+    margin-top: 1095vh;
+    position: absolute;
+    display: none;
+
+}
+canvas {
+    /*border:1px solid #d3d3d3;*/
+    background-color: black;
+}
+/* main container */
+.container{
+	z-index: 1;
+	top:0px;
+	/*background:black;*/
+	width:100%;
+	height:100%;
+  	min-height: 800px;
+	position:absolute;
+	left:0%;
+	/*background:#1E1E20 url(http://premiumcoding.com/CSSTricks/fallingLeaves/autumn.jpg) center top no-repeat;*/
+  /*background-size: ;*/
+}
+.sloth:hover{
+	
+	letter-spacing: 200px;
+}
+.loader {
+    text-align: center;
+    z-index: 2;
+}
+.loader span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+	  margin: -280px 40px 54px  -34px;
+         background:url("pictures/money.png");
+         background-size: contain;
+         background-position: center;
+         background-repeat: no-repeat;
+    
+    -webkit-animation: loader 5s infinite  linear;
+    -moz-animation: loader 10s infinite  linear;
+}
+
+
+#sleep {
+    margin-left: 42vw;
+    margin-top: 35vh;
+    position: fixed;
+}
+
+.loader span:nth-child(5n+5) {
+
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+}
+.loader span:nth-child(3n+2) {
+
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+}
+.loader span:nth-child(2n+5) {
+
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay: 1.7s;
+}
+
+.loader span:nth-child(3n+10) {
+
+    -webkit-animation-delay: 2.7s;
+    -moz-animation-delay: 2.7s;
+}
+.loader span:nth-child(7n+2) {
+
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+}
+.loader span:nth-child(4n+5) {
+
+    -webkit-animation-delay: 5.5s;
+    -moz-animation-delay: 5.5s;
+}
+.loader span:nth-child(3n+7) {
+
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+}
+
+
+@-webkit-keyframes loader {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+@-moz-keyframes loader {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    
+	-webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+   
+	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+    
+	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+
+
+
