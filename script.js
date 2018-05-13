@@ -4,6 +4,17 @@ $(document).ready(function(){
 
 
 
+    $( ".validatedForm" ).submit(function( event ) {
+        var codeEntered = $('.code-input').val();
+        if (codeEntered == 'greed') {
+            window.open("5.html");
+        }
+        event.preventDefault();
+
+        $()
+    });
+
+
 	$('#fp4').click(function(){
 		console.log('clicked')
 		$(".elevator1").show("slow",function(){
@@ -84,14 +95,49 @@ $(document).ready(function(){
             $(".elevator2").show(5000,function(){ 
  
 
-                // $(this).animate({'color' : '#fff'
-             //                }, 5000);
+                // $(this).animate({'color' : '#fff          //                }, 5000);
 
         });
         }
     });
 
   });
+
+
+    $( function() {
+    $( "#key" ).draggable({
+        drag: function( event, ui){
+            var offset = $(this).offset();
+            var xPos = offset.left;
+            var yPos = offset.top;
+
+
+            $('#posX').text('x: ' + xPos);
+            $('#posY').text('y: ' + yPos);
+          }
+    }
+        );
+
+    $('#lock').droppable(
+    {
+        accept: '#key',
+        over : function(event,ui){
+           
+            // $('#dragThis').draggable('option','containment',$(this));
+            // $(".mouth2").find ("src"d) .html("pictures/mouth4.png")
+            // $(" ui.mouth2").html('<img src="pictures/mouth4.png">');
+
+            $("#jail").remove();
+       
+            $("#lock").hide();
+     
+          
+            
+        }
+    });
+
+  });
+
 
 // $("#pot").css('cursor','url(pictures/stick.png),auto');
 // });
@@ -107,6 +153,66 @@ $(document).ready(function(){
     $( function() {
     $( "#greedy" ).draggable();
   });
+
+    $( function() {
+    $( "#banana" ).draggable();
+  });
+
+    $( function() {
+    $( "#fish" ).draggable();
+  });
+
+    $( function() {
+    $( "#tv" ).draggable();
+  });
+
+    $( function() {
+    $( "#trash" ).draggable();
+  });
+    $( function() {
+    $( "#key" ).draggable();
+  });
+
+
+     var obj = document.createElement("audio");
+        obj.src="sound.mp3";
+        obj.volume=1.0;
+        obj.autoPlay=false;
+        obj.preLoad=true;       
+ 
+        $("#bird").click(function() {
+            console.log('clicked')
+            obj.play();
+            console.log('music')
+            alert("bird says: The world's most desperate prison, no one enforces you into the prision except yourself. You are being hurt if they are better than you. ") 
+            $("#book").show();
+
+
+
+        });
+
+
+
+        $("#book").click(function(){
+            alert("book says: Follow the sound.")
+            $("#key").show();
+
+
+
+        })
+
+            $("#sleep").click(function(){
+                console.log("clicked")
+                $('.elevator2').show(5000);
+
+            });
+
+            $("#envy").click(function(){
+                console.log("clicked")
+                $('.elevator2').show(5000);
+
+            });
+
 
 
 
@@ -133,18 +239,6 @@ $('button').click(function(){
 
 
 
-
-
-
-
-
-    
-
-
-
-
-
-
 	
 });
 
@@ -167,6 +261,7 @@ $(document).ready(function(){
   });
 
 
+
 });
 
 
@@ -180,7 +275,7 @@ $(document).ready(function() {
 
 
 $(".sloth").hover(function(){
-    $("#sleep").animate({bottom: '250px'});
+    $("#sleep").animate({bottoom: '250px'});
 }); 
 
 

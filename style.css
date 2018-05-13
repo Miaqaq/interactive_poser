@@ -123,7 +123,25 @@
 
 
 }
+#envy{
 
+
+	font-size:100px;
+	color: black; 
+	z-index: 2;
+	margin-top: 37vh;
+	margin-left: 40vw;
+
+	position: absolute;
+
+	
+
+
+
+}
+#envy:hover{
+	color: red;
+}
 #greed{
 
     font-size: 100px;
@@ -180,7 +198,113 @@ font-size:100px;
 
 
 }
+#congra{
+	color: white;
+	font-size:30px;
+	margin-top: 5vh;
+	margin-left: 45vw;
+	position: absolute;
 
+
+}
+
+#layer1{
+	width:40%;
+	margin-left: 30vw;
+	margin-top: 5vh;
+}
+
+#layer1:hover{
+
+	background-image: url(pictures/1ho.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}
+
+#layer2{
+	width:40%;
+	margin-left: 30vw;
+	margin-top: 5vh;
+}
+
+#layer2:hover{
+
+	background-image: url(pictures/2ho.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}
+#layer3{
+	width:40%;
+	margin-left: 30vw;
+	margin-top: -12vh;
+}
+
+#layer3:hover{
+	background-image: url(pictures/3ho.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#layer4{
+	width:40%;
+	margin-left: 30vw;
+	margin-top: 5vh;
+}
+
+#layer4:hover{
+	background-image: url(pictures/4ho.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+}
+#layer5{
+	width:40%;
+	margin-left: 30vw;
+	margin-top: 5vh;
+}
+
+#layer5:hover{
+	background-image: url(pictures/5ho.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#layer6{
+	width:40%;
+	margin-left: 30vw;
+	margin-top: 5vh;
+}
+
+#layer6:hover{
+	background-image: url(pictures/6ho.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#layer7{
+	width:40%;
+	margin-left: 30vw;
+	margin-top: 5vh;
+}
+#layer7:hover{
+	background-image: url(pictures/7ho.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+#welcome{
+	color: white;
+	font-size:20px;
+	margin-top: 15vh;
+	margin-left: 20vw;
+	position: absolute;
+
+}
 .e3{
 	/*margin-top: 1100vh;*/
 	position: absolute;
@@ -194,6 +318,7 @@ font-size:100px;
 
 	display: none;
 	position: fixed;
+	z-index: 1000;
 }
 .elevator1{
 
@@ -254,7 +379,7 @@ font-size:100px;
 	font-size:30px;
 	color:red; 
 	z-index: 2;
-	margin-top: 43vh;
+	margin-top: 63vh;
 	margin-left: 90vw;
 	transform: rotate(90deg);
 	position: fixed;
@@ -296,8 +421,8 @@ font-size:100px;
 	font-size:20px;
 	color:red; 
 	z-index: 2;
-	margin-top: 83vh;
-	margin-left: 45.5vw;
+	margin-top: 93vh;
+	margin-left: 46vw;
 	/*transform: rotate(90deg);*/
 	position: fixed;
 	display: none;
@@ -346,6 +471,12 @@ font-size:100px;
 	animation-duration: 5s;
 	animation-delay:2s;
 	animation-iteration-count: infinite;
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 	
 }
 
@@ -373,6 +504,12 @@ font-size:100px;
 	animation-name: appear;
 	animation-duration: 5s;
 	animation-delay:4s;
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 	
 }
 
@@ -402,7 +539,9 @@ font-size:100px;
 	margin-left:28vw;
 
 }
-
+#fire:hover{
+	cursor:crosshair;
+}
 #mouth{
 
 	width:30%;
@@ -609,7 +748,7 @@ canvas {
 }
 /* main container */
 .container{
-	z-index: 1;
+	z-index: -1;
 	top:0px;
 	/*background:black;*/
 	width:100%;
@@ -617,12 +756,23 @@ canvas {
   	min-height: 800px;
 	position:absolute;
 	left:0%;
+
 	/*background:#1E1E20 url(http://premiumcoding.com/CSSTricks/fallingLeaves/autumn.jpg) center top no-repeat;*/
   /*background-size: ;*/
 }
+
+.validatedForm {
+	z-index: 100000;
+}
+
+.sloth{
+	position: center;
+	width: 20px;
+}
 .sloth:hover{
-	
-	letter-spacing: 200px;
+	position: center;
+
+/*	letter-spacing: 200px;*/
 }
 .loader {
     text-align: center;
@@ -643,13 +793,95 @@ canvas {
     -moz-animation: loader 10s infinite  linear;
 }
 
+#sound{
 
+}
 #sleep {
     margin-left: 42vw;
     margin-top: 35vh;
     position: fixed;
+    z-index: 100;
+
+}
+#fish{
+	
+    position: absolute;
+    z-index: 1000;
+    width: 70%;
+    transform: rotate(73deg);
+    margin-left: -4vw;
+
+}
+#banana {
+    position: absolute;
+    z-index: 1000;
+    margin-top: 21vh;
+    width: 70%;
+    margin-left: -10vw;
+}
+#tv{
+	position: absolute;
+	z-index: 1000;
+	margin-left: 40vw;
+	transform: rotate(-45deg);
+	width: 70%;
+}
+#trash{
+	position: absolute;
+	z-index: 1000;
+	margin-left: 10vw;
+	transform: rotate(-45deg);
+	width: 40%;
 }
 
+#jail{
+	width: 80%;
+	z-index: 1000;
+
+	position: absolute;
+	margin-left: 10vw;
+
+}
+#bird{
+	width: 10%;
+
+	position: absolute;
+	margin-left: 20vw;
+	margin-top: 70vh;
+	z-index: 20002;
+}
+
+#book{
+	width: 5%;
+
+	position: absolute;
+	margin-left: 66vw;
+	margin-top: 70vh;
+	z-index: 20002;
+	transform: rotate(40deg);
+	display: none;
+}
+
+#bird:hover{
+	cursor: crosshair;
+}
+
+#key {
+    width: 3%;
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 31vh;
+    z-index: 2000;
+    display: none;
+}
+
+#lock {
+    width: 4%;
+    position: absolute;
+    margin-left: 56.2vw;
+    margin-top: 60vh;
+    z-index: 1001;
+}
 .loader span:nth-child(5n+5) {
 
     -webkit-animation-delay: 1.3s;
@@ -734,6 +966,43 @@ canvas {
 	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
   }
 }
+
+#fp4:hover{
+	cursor:help;
+}
+
+
+#bk{
+
+}
+
+
+#greedy {
+	width:100%;
+	height: 100%;
+	color: black;
+}
+
+.container {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
